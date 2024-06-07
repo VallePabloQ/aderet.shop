@@ -178,14 +178,15 @@ p,a,li,ul{
 }
 .cloth-gallery .gallery-item .gallery-caption{
     position: absolute;
-    bottom: 0;
+    bottom: 1em;
     left: 0;
     width: 100%;
     background-color: var(--color-white);
     color: var(--color-dark-gray);
     font-family: var(--font-bold);
-    padding: 10px;
+    padding: 0.75em;
     box-sizing: border-box;
+    transition: transform 0.3s, background-color 0.3s, border-radius 0.3s;
 }
 .cloth-gallery .gallery-item img{
     width: 100%;
@@ -200,6 +201,14 @@ p,a,li,ul{
     transform: scale(0.98);
     filter: brightness(0.6);
     border-radius: 10px;
+}
+.cloth-gallery .gallery-item:hover .gallery-caption{
+    transform: scale(0.98);
+    bottom: 0.4em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--color-dark-gray);
+    color: white;
 }
 
 
