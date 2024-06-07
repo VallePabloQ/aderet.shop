@@ -24,24 +24,24 @@ body.login{
     background-size: contain;
 }
 .login a{
-    color: var(--color-brown);
+    color: var(--color-black);
 }
 .login .button.wp-hide-pw .dashicons{
-    color: var(--color-soft-gray);
+    color: var(--color-light-gray);
 }
 .login .button.wp-hide-pw .dashicons:hover{
     color: var(--color-gray);
 }
 .wp-core-ui .button-primary {
-    background: var(--color-brown);
-    border-color: var(--color-brown);
+    background: var(--color-black);
+    border-color: var(--color-black);
 }
 .wp-core-ui .button-primary:hover {
-    background: #3c301f;
-    border-color: #3c301f;
+    background: var(--color-dark-gray);
+    border-color: var(--color-dark-gray);
 }
 .login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover{
-    color: var(--color-brown);
+    color: var(--color-black);
 }
 .login form{
     border-radius: 15px;
@@ -50,11 +50,11 @@ body.login{
     border-radius: 18px;
 }
 input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus{
-    border-color: var(--color-brown);
-    box-shadow: 0 0 0 1px var(--color-brown);
+    border-color: var(--color-black);
+    box-shadow: 0 0 0 1px var(--color-black);
 }
 .login #login_error, .login .message, .login .success{
-    border-left: 4px solid var(--color-red);
+    border-left: 4px solid red;
 }
 .language-switcher{
     display: none;
